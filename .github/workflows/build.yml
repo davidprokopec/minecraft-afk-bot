@@ -12,6 +12,8 @@ jobs:
     name: Build on ${{ matrix.os }} (${{ matrix.build_type }})
     runs-on: ${{ matrix.os }}
     timeout-minutes: 60
+    permissions:
+      contents: read
     strategy:
       fail-fast: false
       matrix:
