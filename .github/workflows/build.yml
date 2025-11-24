@@ -66,14 +66,20 @@ jobs:
       - name: Configure CMake (Unix)
         if: matrix.os != 'windows-latest'
         run: |
-          cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} .
+          cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DBOTCRAFT_USE_IMGUI=OFF -DBOTCRAFT_USE_OPENGL_GUI=OFF .
 
       - name: Configure CMake (Windows)
         if: matrix.os == 'windows-latest'
         run: |
-          cmake -B build .
+          cmake -B build -DBOTCRAFT_USE_IMGUI=OFF -DBOTCRAFT_USE_OPENGL_GUI=OFF .
 
-      - name: Build
+      - name: Build (Unix)
+        if: matrix.os != 'windows-latest'
+        run: |
+          cmake --build build --config ${{ matrix.build_type }} -j $(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 2)
+
+      - name: Build (Windows)
+        if: matrix.os == 'windows-latest'
         run: |
           cmake --build build --config ${{ matrix.build_type }} --parallel
 
