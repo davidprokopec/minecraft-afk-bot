@@ -46,6 +46,10 @@ jobs:
         run: |
           brew install openssl
 
+      - name: Setup MSVC (Windows)
+        if: matrix.os == 'windows-latest'
+        uses: ilammy/msvc-dev-cmd@v1
+
       - name: Configure CMake
         run: |
           cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} .
@@ -54,13 +58,22 @@ jobs:
         run: |
           cmake --build build --config ${{ matrix.build_type }} --parallel
 
-      - name: Upload artifacts
+      - name: Upload artifacts (Unix)
+        if: matrix.os != 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: mc-afker-${{ matrix.os }}-${{ matrix.build_type }}
+          path: build/bin/mc-afker*
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload artifacts (Windows)
+        if: matrix.os == 'windows-latest'
         uses: actions/upload-artifact@v4
         with:
           name: mc-afker-${{ matrix.os }}-${{ matrix.build_type }}
           path: |
-            build/bin/*
-            !build/bin/*.pdb
+            build/bin/${{ matrix.build_type }}/mc-afker.exe
           if-no-files-found: warn
           retention-days: 7
 
