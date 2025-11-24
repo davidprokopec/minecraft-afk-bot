@@ -36,8 +36,7 @@ jobs:
         with:
           path: |
             build
-            ~/.cache/
-          key: ${{ runner.os }}-cmake-${{ matrix.build_type }}-${{ hashFiles('**/CMakeLists.txt', '.gitmodules') }}
+          key: ${{ runner.os }}-cmake-${{ matrix.build_type }}-${{ hashFiles('**/CMakeLists.txt') }}
           restore-keys: |
             ${{ runner.os }}-cmake-${{ matrix.build_type }}-
             ${{ runner.os }}-cmake-
