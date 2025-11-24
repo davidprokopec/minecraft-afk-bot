@@ -1,0 +1,149 @@
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:426:9: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+  426 |         SHA256_Update(&sha256, timestamp_bytes.data(), timestamp_bytes.size());
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:427:9: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+  427 |         SHA256_Update(&sha256, message_size_bytes.data(), message_size_bytes.size());
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:428:9: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+  428 |         SHA256_Update(&sha256, message.data(), message.size());
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:429:9: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+  429 |         SHA256_Update(&sha256, last_seen_size_bytes.data(), last_seen_size_bytes.size());
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:432:13: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+  432 |             SHA256_Update(&sha256, last_seen[i].data(), last_seen[i].size());
+      |             ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:435:9: warning: 'SHA256_Final' is deprecated [-Wdeprecated-declarations]
+  435 |         SHA256_Final(signature_hash.data(), &sha256);
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/sha.h:76:1: note: 'SHA256_Final' has been explicitly marked deprecated here
+   76 | OSSL_DEPRECATEDIN_3_0 int SHA256_Final(unsigned char *md, SHA256_CTX *c);
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:438:38: warning: 'RSA_size' is deprecated [-Wdeprecated-declarations]
+  438 |         const int private_key_size = RSA_size(private_key);
+      |                                      ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/rsa.h:215:1: note: 'RSA_size' has been explicitly marked deprecated here
+  215 | OSSL_DEPRECATEDIN_3_0 int RSA_size(const RSA *rsa);
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:441:9: warning: 'RSA_sign' is deprecated [-Wdeprecated-declarations]
+  441 |         RSA_sign(NID_sha256, signature_hash.data(), static_cast<unsigned int>(signature_hash.size()), signature.data(), &signature_size, private_key);
+      |         ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/rsa.h:359:1: note: 'RSA_sign' has been explicitly marked deprecated here
+  359 | OSSL_DEPRECATEDIN_3_0 int RSA_sign(int type, const unsigned char *m,
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:991:13: warning: 'RSA_free' is deprecated [-Wdeprecated-declarations]
+  991 |             RSA_free(private_key);
+      |             ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/rsa.h:304:1: note: 'RSA_free' has been explicitly marked deprecated here
+  304 | OSSL_DEPRECATEDIN_3_0 void RSA_free(RSA *r);
+      | ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+/Users/davidprokopec/Documents/mc-afker/libs/Botcraft/botcraft/src/Network/Authentifier.cpp:995:23: warning: 'PEM_read_bio_RSAPrivateKey' is deprecated [-Wdeprecated-declarations]
+  995 |         private_key = PEM_read_bio_RSAPrivateKey(keybio, &private_key, NULL, NULL);
+      |                       ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/pem.h:457:24: note: 'PEM_read_bio_RSAPrivateKey' has been explicitly marked deprecated here
+  457 | DECLARE_PEM_rw_cb_attr(OSSL_DEPRECATEDIN_3_0, RSAPrivateKey, RSA)
+      |                        ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:229:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  229 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/opt/homebrew/Cellar/openssl@3/3.6.0/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+23 warnings generated.
+[ 95%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Network/Compression.cpp.o
+[ 95%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Network/LastSeenMessagesTracker.cpp.o
+[ 96%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Network/NetworkManager.cpp.o
+[ 96%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Network/TCP_Com.cpp.o
+[ 97%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/DemanglingUtilities.cpp.o
+[ 97%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/Logger.cpp.o
+[ 97%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/ItemUtilities.cpp.o
+[ 98%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/SleepUtilities.cpp.o
+[ 98%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/StdAnyUtilities.cpp.o
+[ 99%] Building CXX object libs/Botcraft/botcraft/CMakeFiles/botcraft.dir/src/Utilities/StringUtilities.cpp.o
+[ 99%] Linking CXX shared library /Users/davidprokopec/Documents/mc-afker/bin/libbotcraft.dylib
+[ 99%] Built target botcraft
+[ 99%] Building CXX object CMakeFiles/mc-afker.dir/src/main.cpp.o
+/Users/davidprokopec/Documents/mc-afker/src/main.cpp:1:10: fatal error: 'Botcraft/Client/Client.hpp' file not found
+    1 | #include <Botcraft/Client/Client.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+gmake[3]: *** [CMakeFiles/mc-afker.dir/build.make:79: CMakeFiles/mc-afker.dir/src/main.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:152: CMakeFiles/mc-afker.dir/all] Error 2
+gmake[1]: *** [Makefile:136: all] Error 2
+gmake[1]: Leaving directory '/Users/davidprokopec/Documents/mc-afker/build'
+make: *** [build] Error 2

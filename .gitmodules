@@ -1,0 +1,3 @@
+[submodule "libs/Botcraft"]
+	path = libs/Botcraft
+	url = https://github.com/adepierre/Botcraft.git

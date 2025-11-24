@@ -1,0 +1,25 @@
+{
+  "server": {
+    "address": "mc.example.com:25565",
+    "username": "YourBotName",
+    "password": "your_password_here"
+  },
+  "locations": [
+    {
+      "name": "creeper_farm",
+      "type": "warp",
+      "wait_minutes": 30
+    },
+    {
+      "name": "slime_farm",
+      "type": "warp",
+      "wait_minutes": 30
+    },
+    {
+      "name": "home1",
+      "type": "home",
+      "wait_minutes": 15
+    }
+  ]
+}
+

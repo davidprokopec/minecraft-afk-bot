@@ -1,0 +1,45 @@
+# Build artifacts
+build/
+Build/
+build-*/
+bin/
+lib/
+out/
+
+# Git
+.git/
+.gitignore
+.gitmodules
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (optional, comment out if needed)
+# *.md
+# docs/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
